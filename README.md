@@ -1,37 +1,40 @@
 # go-example
 go学习笔记 demo源码
 
+## 更多Go开源图书、学习资料或文档
+https://books.studygolang.com/
+
 # 实例
-#### 你好，世界
-#### 值
-#### 变量
-#### 常量
-#### For循环
-#### if/else 分支
-#### 分支结构
-#### 数组
-#### 切片
-#### 关联数组
-#### Range 遍历
-#### 函数
-#### 多返回值
-#### 变参函数
-#### 闭包
-#### 递归
-#### 指针
-#### 结构体
-#### 方法
-#### 接口
-#### 错误处理
-#### 协程
-#### 通道
-#### 通道缓冲
-#### 通道同步
-#### 通道方向
-#### 通道选择器
-#### 超时处理
-#### 非阻塞通道操作
-#### 通道的关闭
+#### hello-world.go  你好，世界
+#### values.go       值
+#### variables.go    变量
+#### constant.go     常量
+#### for.go          For循环
+#### if-else.go      if/else 分支
+#### switch.go       分支结构
+#### arrays.go       数组
+#### slices.go       切片
+#### maps.go         关联数组
+#### range.go        Range 遍历
+#### functions.go    函数
+#### multiple-return-values.go  多返回值
+#### variadic-functions.go      变参函数
+#### closures.go                闭包
+#### recursion.go  递归
+#### pointers.go  指针
+#### structs.go 结构体
+#### methods.go 方法
+#### interfaces.go 接口
+#### errors.go 错误处理
+#### goroutines.go 协程
+#### channels.go 通道
+#### channel-buffering.go 通道缓冲
+#### channel-synchronization.go 通道同步
+#### channel-directions.go 通道方向
+#### select.go  通道选择器
+#### timeouts.go  超时处理
+#### non-blocking-channel-operations.go 非阻塞通道操作
+#### closing-channels.go 通道的关闭
 #### 通道遍历
 #### 定时器
 #### 打点器

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53a4fac2-5278-496a-b084-2ef5348ae585" name="Default Changelist" comment="" />
+    <list default="true" id="53a4fac2-5278-496a-b084-2ef5348ae585" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/non-blocking-channel-operations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeouts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +22,17 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1PisxtescYOUQIOpnr2tY85QHvz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -36,12 +50,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build methods.go">
-    <configuration name="go build closures.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build non-blocking-channel-operations.go">
+    <configuration name="go build channel-directions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="example" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/closures.go" />
+      <filePath value="$PROJECT_DIR$/channel-directions.go" />
+      <package value="example" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build channel-synchronization.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="example" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/channel-synchronization.go" />
+      <package value="example" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go build example" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
@@ -53,53 +78,67 @@
       <output_directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build methods.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build non-blocking-channel-operations.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="example" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/methods.go" />
+      <filePath value="$PROJECT_DIR$/non-blocking-channel-operations.go" />
+      <package value="example" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build pointers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="example" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/pointers.go" />
+      <filePath value="$PROJECT_DIR$/select.go" />
+      <package value="example" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build recursion.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build timeouts.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="example" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/recursion.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build structs.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="example" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/structs.go" />
+      <filePath value="$PROJECT_DIR$/timeouts.go" />
+      <package value="example" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Go Build.go build example" />
-      <item itemvalue="Go Build.go build closures.go" />
-      <item itemvalue="Go Build.go build recursion.go" />
-      <item itemvalue="Go Build.go build pointers.go" />
-      <item itemvalue="Go Build.go build structs.go" />
-      <item itemvalue="Go Build.go build methods.go" />
+      <item itemvalue="Go Build.go build channel-synchronization.go" />
+      <item itemvalue="Go Build.go build channel-directions.go" />
+      <item itemvalue="Go Build.go build select.go" />
+      <item itemvalue="Go Build.go build timeouts.go" />
+      <item itemvalue="Go Build.go build non-blocking-channel-operations.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build methods.go" />
-        <item itemvalue="Go Build.go build structs.go" />
-        <item itemvalue="Go Build.go build pointers.go" />
-        <item itemvalue="Go Build.go build recursion.go" />
-        <item itemvalue="Go Build.go build closures.go" />
+        <item itemvalue="Go Build.go build non-blocking-channel-operations.go" />
+        <item itemvalue="Go Build.go build timeouts.go" />
+        <item itemvalue="Go Build.go build select.go" />
+        <item itemvalue="Go Build.go build channel-directions.go" />
+        <item itemvalue="Go Build.go build channel-synchronization.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add: 新增demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 新增demo" />
   </component>
 </project>
