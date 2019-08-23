@@ -46,7 +46,7 @@ https://books.studygolang.com/
 #### sorting.go 排序
 #### sorting-by-functions.go  使用函数自定义排序
 #### panic.go Panic
-#### Defer
+#### defer.go Defer
 #### 组合函数
 #### 字符串函数
 #### 字符串格式化
