@@ -35,17 +35,17 @@ https://books.studygolang.com/
 #### timeouts.go  超时处理
 #### non-blocking-channel-operations.go 非阻塞通道操作
 #### closing-channels.go 通道的关闭
-#### 通道遍历
-#### 定时器
-#### 打点器
-#### 工作池
-#### 速率限制
-#### 原子计数器
-#### 互斥锁
-#### Go 状态协程
-#### 排序
-#### 使用函数自定义排序
-#### Panic
+#### range-over-channels.go 通道遍历
+#### timers.go 定时器
+#### tickers.go 打点器
+#### worker-pools.go  工作池
+#### rate-limiting.go 速率限制
+#### atomic-counters.go 原子计数器
+#### mutexes.go 互斥锁
+#### stateful-goroutines.go Go 状态协程
+#### sorting.go 排序
+#### sorting-by-functions.go  使用函数自定义排序
+#### panic.go Panic
 #### Defer
 #### 组合函数
 #### 字符串函数
